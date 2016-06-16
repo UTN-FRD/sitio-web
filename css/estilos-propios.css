@@ -53,3 +53,14 @@ header  span{
 	color: #9aecea;
 	
 }
+
+#portfolio .portfolio-item .portfolio-link .caption {
+	background: #9aecea;
+}
+
+.portfolio-link{
+	width: 360px;
+    height: 260px;
+}
+
+}
