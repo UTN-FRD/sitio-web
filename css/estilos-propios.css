@@ -1,0 +1,55 @@
+.modal-body .fa:before {
+	color: #2c3e50;
+	border-color: #2c3e50 ;
+	
+}
+
+.modal-body .btn-social{
+	  border: 2px solid #2c3e50;
+
+}
+
+.modal-body .btn-social:hover{
+	border-color:#fff; 
+}
+
+#about , header{
+	background-color:#9aecea; 
+}
+
+hr.power-off:after{
+	background-color: #9aecea;
+}
+
+.skills{
+	color: #2c3e50;
+}
+
+#about p {
+	color: #2c3e50;
+}
+
+.navbar-default {
+	background-color: #233140;
+}
+
+header  span{
+	color: #2c3e50;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #9aecea;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color: #9aecea;
+
+}
+.footer-col img{
+	padding-top: 94px;
+}
+
+.btn-outline:hover{
+	color: #9aecea;
+	
+}
