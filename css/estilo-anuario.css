@@ -68,4 +68,16 @@ hr.power-off {
 
 .panel > div {
     display: inline;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.img-responsive{
+    padding: 10px 60px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    height: 260px;
+    display: block;
 }
