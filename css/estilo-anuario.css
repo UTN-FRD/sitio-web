@@ -1,71 +1,81 @@
-button.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 98%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+.img-responsive {
+  padding: 10px 60px;
 }
 
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+/* Header */
+header {
+  background-color: #fff;
 }
 
-button.accordion:after {
-    content: '\02795';
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
+header hr.power-off::after {
+  background-color: #fff;
+  color: #1a242f;
 }
 
-button.accordion.active:after {
-    content: "\2796";
+header hr.power-off {
+  border-color: #1a242f;
 }
 
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.6s ease-in-out;
-    opacity: 0;
+/* Paneles */
+.panel-group .panel {
+  margin: 1% 1% 12px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: initial;
+  border: 1px solid #dddddd;
 }
 
-div.panel.show {
-    opacity: 1;
-    max-height: 500px;
-    padding-top: 20px;
+.panel-heading {
+  padding: 0;
+  margin: 0 auto;
 }
 
-header{
-    background-color:#fff; 
-
+.panel-title {
+  text-align: left;
 }
 
-hr.power-off:after{
-    background-color: #fff;
-    color: #1a242f;
+.panel-title a {
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  display: block;
 }
 
-hr.power-off {
-    border-color: #1a242f;
+.panel-title a:not(.collapsed),
+.panel-title a:hover,
+.panel-title a:active,
+.panel-title a:focus {
+  color: #444;
+  background-color: #ddd;
+  text-decoration: none;
 }
 
-.emoji{
-    width: 90px;
-    float: left;
-
+.panel-title a::after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
 }
 
-.panel{
-    padding-top: 20px;
+.panel-title a:not(.collapsed)::after {
+  content: "\2796";
 }
 
-.panel > div {
-    display: inline;
+/* Portfolio */
+#portfolio {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+#portfolio .portfolio-item {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  height: 260px;
+  display: block;
 }
