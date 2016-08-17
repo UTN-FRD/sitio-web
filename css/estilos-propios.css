@@ -103,10 +103,41 @@ header hr.power-off::after {
   align-self: center;
 }
 
+#utn-logo img{
+  height: 170px;
+}
+
 #copyright {
   text-align: center;
   width: 100%;
 }
+
+#logo img {
+  width: 100px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #f6b55d;
+}
+
+.navbar-default .navbar-brand {
+    color: #f6b55d;
+}
+
+
+footer {
+    color: #f6b55d;
+}
+
+.btn-outline {
+  color: #f6b55d;
+}
+.btn-social {
+      border: 2px solid #f6b55d;
+    }
+
+
 
 /* Responsive design */
 @media(max-width: 1200px) {
