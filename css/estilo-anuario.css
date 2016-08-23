@@ -65,6 +65,11 @@ header hr.power-off {
   content: "\2796";
 }
 
+/*footer*/
+#utn-logo img{
+  height: 170px;
+}
+
 /* Portfolio */
 #portfolio {
   padding: 0;
