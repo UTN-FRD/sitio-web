@@ -1,5 +1,9 @@
 .img-responsive {
   padding: 10px 60px;
+  }
+
+.img-modal{
+  max-width: 40%;
 }
 
 /* Header */

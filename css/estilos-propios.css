@@ -1,6 +1,10 @@
-.btn-outline:hover,
+º.btn-outline:hover,
 .btn-outline:focus {
   color: #9aecea;
+}
+
+ul a .fa{
+  color: #f6b55d;
 }
 
 /* Header */
@@ -35,7 +39,7 @@ header hr.power-off::after {
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #9aecea;
+  color:#d09443;;
 }
 
 /* Portfolio */
