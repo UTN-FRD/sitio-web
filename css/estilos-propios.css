@@ -52,6 +52,11 @@ header hr.power-off::after {
   border-color: #1a242f;
 }
 
+#portfolio .portfolio-item {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 #portfolio .portfolio-item .portfolio-link {
   height: 260px;
   display: flex;
@@ -65,9 +70,42 @@ header hr.power-off::after {
 #portfolio .portfolio-item .portfolio-link img {
   margin: auto;
   max-height: 100%;
+  width: 100%;
 }
 
 /* Modales */
+.portfolio-modal .modal-content {
+  padding: 60px 0 30px
+}
+
+.portfolio-modal .close-modal {
+  width: 66px;
+  height: 66px;
+  top: 20px;
+  right: 20px;
+}
+
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .lr .rl {
+  height: 60px;
+}
+
+.portfolio-modal .wrapper-img {
+  display: flex;
+  align-items: center; /* align vertical */
+  height: 40vh;
+  margin-bottom: 10px;
+}
+
+.portfolio-modal .wrapper-img img {
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.modal-body hr.star-primary {
+  margin: 25px auto;
+}
+
 .modal-body .fa:before {
   color: #2c3e50;
 }
@@ -78,6 +116,10 @@ header hr.power-off::after {
 
 .modal-body .btn-social:hover {
   border-color:#fff;
+}
+
+.modal-body .btn-outline {
+  margin-top: 0;
 }
 
 /* Scroll-top */
@@ -159,6 +201,11 @@ footer {
 @media(max-width: 767px) {
   #portfolio .portfolio-item .portfolio-link {
     height: 288.88px;
+  }
+
+  .portfolio-modal .close-modal {
+    top: 10px;
+    right: 10px;
   }
 
   .footer-above .row {
